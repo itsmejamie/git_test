@@ -1,0 +1,221 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Navigation bar 
+
+Needs to be centered and flex better utilised.
+
+*/
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+
+    height: 50px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    border: 0px;
+  }
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin-right: 150px;
+  padding: 0;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: larger;
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Hero section */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #F9FAF8;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  padding-top: 80px;
+  gap: 50px;
+  }
+
+h1 {
+  font-size: 48px;
+  font-weight:bolder
+}
+
+img {
+  height: 200px;
+  width: auto;
+  margin-top: 25px;
+
+}
+
+.button{
+padding: 8px 16px;
+border-radius: 8px;
+background: #3882f6;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border: none;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+
+
+
+
+
+/* Main section 
+
+Need to make it so the images don't fall off the page 
+
+*/
+
+.main h1{
+  text-align: center;
+}
+
+.main .container {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  gap: 15px;
+  
+}
+
+.main img {
+  height: 250px;
+  width: auto;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-width: 3px;
+}
+
+.main .text {
+  text-align: center;
+}
+
+/* Quote section */
+
+.quote {
+  background-color: #E5E7EB;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px, 50px, 25px;
+
+}
+
+.words {
+    font-size: 24px;
+    line-height: 150%;
+    font-style: italic;
+    max-width: 800px;
+    
+}
+
+.author {
+  display: flex;
+justify-content: end;
+}
+
+
+
+
+/* Mailing List section 
+
+Need to understand how to get text not to smash in to each other
+
+*/
+
+.action {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
+}
+
+.action .container {
+  display: flex; 
+  justify-content: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  gap: 50px;
+  max-width: 800px;
+  margin: 50px;
+  line-height: 0px;
+}
+
+.container .top {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 18px;
+  color: white;
+  line-height: 0px;
+  
+}
+
+.bottom button {
+  border: 3px white solid;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: white;
+  margin: 10px;
+  padding: 15px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+  }
